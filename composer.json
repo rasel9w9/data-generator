@@ -1,0 +1,20 @@
+{
+    "name": "rasel9w9/data-generator",
+    "description": "This is For Make Seeder Or Generate The Table Data As Array",
+    "type": "laravel-package",
+    "require": {
+        "php": "^7.4",
+        "illuminate/support": "^6.0"
+    },
+    "authors": [
+        {
+            "name": "Md. Alauddin",
+            "email": "rasel9w9@email.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "rasel9w9\\DataGenerator\\": "src/"
+        }
+    }
+}
