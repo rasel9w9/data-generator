@@ -3,7 +3,7 @@
     "description": "This is For Make Seeder Or Generate The Table Data As Array",
     "type": "laravel-package",
     "require": {
-        "php": "^7.4",
+        "php": ">=7.4",
         "illuminate/support": "^6.0"
     },
     "authors": [
