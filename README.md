@@ -1,4 +1,4 @@
-# Data Generator: Export Tale Data With ease.
+# Data Generator: Export Table Data With ease.
 Easily export data  using . This package has been tested since Laravel 10.
 
 ## Installation
