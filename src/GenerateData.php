@@ -8,5 +8,6 @@ class GenerateData{
     }
 
     public function generateAllData(){
+        Artisan::call("alauddin:generate-data");
     }
 }

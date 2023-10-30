@@ -1,13 +1,13 @@
 <?php
 
-namespace rasel9w9\data_generator;
+namespace rasel9w9\DataGenerator;
 use Illuminate\Support\ServiceProvider;
 class DataGeneratorServiceProvider extends ServiceProvider{
 
     public function register(){
         $this->commands([
-            GenerateTableData::class,
-            GenerateData::class,
+            GenerateTableDataCommand::class,
+            GenerateDataCommand::class,
         ]);
     }
 
