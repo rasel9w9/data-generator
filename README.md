@@ -5,7 +5,7 @@ Easily export data  using . This package has been tested since Laravel 10.
 
 Run this composer command in your laravel application:
 ```
-composer require rasel9w9/data-generator
+composer require rasel9w9/data-generator:^1.1
 ```
 
 To start using Laravel, add the Service Provider and the Facade to your `config/app.php`:
