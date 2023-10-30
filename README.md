@@ -21,8 +21,18 @@ To start using Laravel, add the Service Provider and the Facade to your `config/
 
 # Basic Usage
 
-To use Laravel Mpdf add something like this to one of your controllers. You can pass data to a view in `/resources/views`.
+To use Data Generator add something like this to one of your controllers.
 
+#Using Artisan Command
+```php
+	//to export specific table data
+	php artisan alauddin:generate-table-data --table=youreTableName
+
+	//To export All Tables Of the database
+	php artisan alauddin:generate-data
+```
+
+#Using Controller
 ```php
 //....
 
