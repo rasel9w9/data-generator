@@ -4,7 +4,8 @@
     "type": "laravel-package",
     "require": {
         "php": ">=7.4",
-        "illuminate/support": "^6.0"
+        "illuminate/support": "^6.0",
+        "rasel9w9/data-generator": "^1.0"
     },
     "authors": [
         {
